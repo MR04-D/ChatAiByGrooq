@@ -51,7 +51,7 @@ async function getGroqChatCompletion(userInput) {
                     content: userInput
                 }
             ],
-            model: 'llama3-70b-8192' //llama3-8b-8192
+            model: 'llama3-70b-8192' //Ini adalah model Ai nya, bisa diganti. sesuai yang ada di grooq Ai
         })
     });
 
