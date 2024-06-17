@@ -36,8 +36,10 @@ async function sendMessage() {
     chatWindow.scrollTop = chatWindow.scrollHeight;
 }
 
+//
+
 async function getGroqChatCompletion(userInput) {
-    const apiKey = prompt("input apikey anda"); // Isi
+    const apiKey = " " ; // Isi apikey Dari grooq Ai disini
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
         headers: {
