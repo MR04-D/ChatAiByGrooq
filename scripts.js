@@ -37,7 +37,7 @@ async function sendMessage() {
 }
 
 async function getGroqChatCompletion(userInput) {
-    const apiKey = prompt("input your apikey") ; // Isi API key Anda Hapus saja bagian prompt nya, dan ganti ke apikey anda
+    const apiKey = prompt("input apikey anda"); // Isi
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
         headers: {
